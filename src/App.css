@@ -1,0 +1,13 @@
+@import "~react-vis/dist/style.css";
+
+.control_wrapper {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.chart_wrapper {
+    background-color: rgb(177,188,212);
+    width: 615px;
+    height: 370px;
+    margin: 0 auto;
+}
