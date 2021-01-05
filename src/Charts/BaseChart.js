@@ -6,10 +6,10 @@ function BaseChart(props) {
     <XYPlot
       width={600}
       height={300}>
-        <HorizontalGridLines />
-        <VerticalGridLines />
+      <HorizontalGridLines/>
+      <VerticalGridLines/>
       {props.children}
-      <YAxis />
+      <YAxis/>
     </XYPlot>
   );
 }

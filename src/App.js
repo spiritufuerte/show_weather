@@ -18,7 +18,6 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-
 const instance = axios.create({
   baseURL: 'http://localhost:3000/pub/data/weather/uk/climate/stationdata'
 });
